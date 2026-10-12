@@ -1329,7 +1329,7 @@
         "title": "Linha Peixoto, 1405 — Osório/RS",
         "address": "Linha Peixoto, 1405 · Osório/RS",
         "places": "3 min | BR-101\n~1 h | Porto Alegre\nCanal | Lagoa do Peixoto\nCanal | Lagoa da Pinguela",
-        "mapLink": "https://www.google.com/maps?q=Linha+Peixoto+1405,+Osorio,+RS&output=embed"
+        "mapLink": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5115.623909747444!2d-50.22456877818705!3d-29.852022086182217!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951867c176c60ef7%3A0xf9b5da7f292e9e5b!2sNAU%20Marina%20e%20Moradas!5e1!3m2!1spt-BR!2sbr!4v1791839694655!5m2!1spt-BR!2sbr"
       },
       "settings": {
         "visible": true,
@@ -1556,7 +1556,7 @@
       "props": {
         "eyebrow": "PARA QUEM JÁ CONHECE MARINA",
         "title": "As perguntas mudam quando você já possui embarcação.",
-        "items": "Posso comprar parcelado diretamente com a loteadora e depois transferir o saldo para financiamento bancário? | Sim o empreendimento oferece condições de parcelamento direto com a loteadora e financiamento.\nO NAU possui registro de incorporação ou registro de loteamento?|Sim está em conformidade com a legislação.\nQuantos lotes o Nau Marina e Moradas possui?|Cerca de 494 lotes residenciais. \nQual o tamanho dos lotes do Nau Marina e Moradas ?|O tamanho dos lotes (variando de 300 m² a 734 m²), divididos entre lotes secos, molhados e navegáveis.\nO Nau Marina e Moradas possui marina com vaga?| Sim, marina privativa com 64 vagas.\nO Canal navegável no Nau Marina e Moradas está integrado com a lagoa?|Sim, possui canal navegável integrando as Lagoas do Peixoto e da Pinguela, clube náutico.\nQual a faixa de valores do Nau Marina e Moradas? | Valores: Os lotes começam a partir de R$ 300 mil.\nQual o prazo de conclusão das obras do Nau Marina e Moradas?| Programado para primeiro trimestre de 2027.\nComo agendo visita?| Precisa preencher o formulário com informações necessárias.\n"
+        "items": "Posso comprar parcelado diretamente com a loteadora e depois transferir o saldo para financiamento bancário? | Sim o empreendimento oferece condições de parcelamento direto com a loteadora até 100x e financiamento bancário admitido.\nO NAU possui registro de incorporação ou registro de loteamento?|Sim está em conformidade com a legislação.\nQuantos lotes o Nau Marina e Moradas possui?|Cerca de 494 lotes residenciais. \nQual o tamanho dos lotes do Nau Marina e Moradas ?|O tamanho dos lotes (variando de 300 m² a 734 m²), divididos entre lotes secos, molhados e navegáveis.\nO Nau Marina e Moradas possui marina com vaga?| Sim, marina privativa com 64 vagas.\nO Canal navegável no Nau Marina e Moradas está integrado com a lagoa?|Sim, possui canal navegável integrando as Lagoas do Peixoto e da Pinguela, clube náutico.\nQual a faixa de valores do Nau Marina e Moradas? | Valores dos lotes: Os lotes começam a partir de R$ 300 mil.\nQual o prazo de conclusão das obras do Nau Marina e Moradas?| Programado para primeiro trimestre de 2027.\nComo agendo visita?| Precisa preencher o formulário com informações necessárias.\n"
       },
       "settings": {
         "visible": true,
@@ -1615,13 +1615,15 @@
       "props": {
         "eyebrow": "COMPARAÇÃO CORRETA",
         "title": "Não compare apenas o preço do lote. Compare a rotina que vem com ele.",
-        "price": "ATÉ 100x",
+        "price": "Lotes a partir de R$ 300 mil",
         "priceLabel": "parcelamento direto com a incorporadora",
-        "downPayment": "Parcelado até 3x",
-        "installments": "1.400",
-        "note": "*Preço, disponibilidade, regras de marina, vagas, serviços e condições comerciais devem ser consultados com nosso time de especialistas",
+        "downPayment": "parcelamos entrada em 3x",
+        "installments": "Até 100x",
+        "note": "Lotes a partir de 300mil - Lotes navegáveis.",
         "cta": "Quero comparar posição, rotina e investimento",
-        "anchor": "#contato"
+        "anchor": "#contato",
+        "installmentsLabel": "Prazo",
+        "downPaymentLabel": "Entrada facilitada de 15%"
       },
       "settings": {
         "visible": true,
@@ -1671,6 +1673,19 @@
           "paddingMode": "inherit",
           "paddingTop": 96,
           "paddingBottom": 96
+        },
+        "motion": {
+          "duration": 800,
+          "delay": 0,
+          "distance": 70,
+          "blur": 5,
+          "scale": 1.025,
+          "threshold": 0.2,
+          "easing": "ease-in-out",
+          "direction": "bottom",
+          "originX": 50,
+          "originY": 50,
+          "replay": false
         }
       }
     },
@@ -2068,8 +2083,8 @@
       }
     }
   ],
-  "selectedSectionId": "parallax-1791508691675-crszk",
-  "updatedAt": "2026-10-12T20:55:52.068Z",
+  "selectedSectionId": "payment-nau-marina-editorial",
+  "updatedAt": "2026-10-12T21:41:15.117Z",
   "geo": {
     "enabled": "yes",
     "generateMarkdown": "yes",
