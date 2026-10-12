@@ -1,0 +1,12 @@
+{
+  "version": "5.12.5",
+  "metrics": {
+    "coreWebVitalsPotential": 8,
+    "crawlArchitecture": 9.5,
+    "realEstateEEAT": 9.1,
+    "aiDiscovery": 9.1,
+    "scaleSafety": 9
+  },
+  "average": 8.9,
+  "generatedAt": "2026-10-12T20:56:48.025Z"
+}
